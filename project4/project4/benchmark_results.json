@@ -1,0 +1,332 @@
+[
+  {
+    "puzzle": "cat -> dog",
+    "desc": "3-letter classic",
+    "word_len": 3,
+    "ladder_length": 4,
+    "path_bfs": [
+      "cat",
+      "cot",
+      "dot",
+      "dog"
+    ],
+    "path_bi": [
+      "cat",
+      "cot",
+      "cog",
+      "dog"
+    ],
+    "bfs_visited": 266,
+    "bfs_time_ms": 0.40975999872898683,
+    "bi_visited": 3,
+    "bi_time_ms": 0.010180000390391797,
+    "speedup": 40.251471808953085,
+    "visited_reduction": 88.66666666666667
+  },
+  {
+    "puzzle": "hit -> cog",
+    "desc": "3-letter standard",
+    "word_len": 3,
+    "ladder_length": 4,
+    "path_bfs": [
+      "hit",
+      "hot",
+      "cot",
+      "cog"
+    ],
+    "path_bi": [
+      "hit",
+      "hot",
+      "cot",
+      "cog"
+    ],
+    "bfs_visited": 269,
+    "bfs_time_ms": 0.29429999995045364,
+    "bi_visited": 13,
+    "bi_time_ms": 0.025579999783076346,
+    "speedup": 11.505082191015564,
+    "visited_reduction": 20.692307692307693
+  },
+  {
+    "puzzle": "man -> ape",
+    "desc": "3-letter evolution",
+    "word_len": 3,
+    "ladder_length": 6,
+    "path_bfs": [
+      "man",
+      "mat",
+      "oat",
+      "opt",
+      "apt",
+      "ape"
+    ],
+    "path_bi": [
+      "man",
+      "mat",
+      "oat",
+      "opt",
+      "apt",
+      "ape"
+    ],
+    "bfs_visited": 403,
+    "bfs_time_ms": 0.4345599969383329,
+    "bi_visited": 42,
+    "bi_time_ms": 0.06364000146277249,
+    "speedup": 6.828409600093074,
+    "visited_reduction": 9.595238095238095
+  },
+  {
+    "puzzle": "cold -> warm",
+    "desc": "4-letter temperature",
+    "word_len": 4,
+    "ladder_length": 5,
+    "path_bfs": [
+      "cold",
+      "wold",
+      "word",
+      "ward",
+      "warm"
+    ],
+    "path_bi": [
+      "cold",
+      "wold",
+      "word",
+      "worm",
+      "warm"
+    ],
+    "bfs_visited": 582,
+    "bfs_time_ms": 1.4055800027563237,
+    "bi_visited": 17,
+    "bi_time_ms": 0.038440000207629055,
+    "speedup": 36.56555658595868,
+    "visited_reduction": 34.23529411764706
+  },
+  {
+    "puzzle": "lead -> gold",
+    "desc": "4-letter alchemy",
+    "word_len": 4,
+    "ladder_length": 4,
+    "path_bfs": [
+      "lead",
+      "load",
+      "goad",
+      "gold"
+    ],
+    "path_bi": [
+      "lead",
+      "load",
+      "goad",
+      "gold"
+    ],
+    "bfs_visited": 169,
+    "bfs_time_ms": 0.2442600016365759,
+    "bi_visited": 13,
+    "bi_time_ms": 0.025240000104531646,
+    "speedup": 9.677496062796012,
+    "visited_reduction": 13.0
+  },
+  {
+    "puzzle": "head -> tail",
+    "desc": "4-letter anatomy",
+    "word_len": 4,
+    "ladder_length": 6,
+    "path_bfs": [
+      "head",
+      "held",
+      "hell",
+      "tell",
+      "tall",
+      "tail"
+    ],
+    "path_bi": [
+      "head",
+      "held",
+      "hell",
+      "hall",
+      "hail",
+      "tail"
+    ],
+    "bfs_visited": 1140,
+    "bfs_time_ms": 1.5938199998345226,
+    "bi_visited": 49,
+    "bi_time_ms": 0.08635999838588759,
+    "speedup": 18.455535312920695,
+    "visited_reduction": 23.26530612244898
+  },
+  {
+    "puzzle": "ruby -> code",
+    "desc": "4-letter programming",
+    "word_len": 4,
+    "ladder_length": 5,
+    "path_bfs": [
+      "ruby",
+      "rube",
+      "robe",
+      "rode",
+      "code"
+    ],
+    "path_bi": [
+      "ruby",
+      "rube",
+      "rude",
+      "rode",
+      "code"
+    ],
+    "bfs_visited": 129,
+    "bfs_time_ms": 0.2120200006174855,
+    "bi_visited": 5,
+    "bi_time_ms": 0.012339999375399202,
+    "speedup": 17.18152442050886,
+    "visited_reduction": 25.8
+  },
+  {
+    "puzzle": "game -> play",
+    "desc": "4-letter gaming",
+    "word_len": 4,
+    "ladder_length": 9,
+    "path_bfs": [
+      "game",
+      "same",
+      "sane",
+      "pane",
+      "pant",
+      "pent",
+      "peat",
+      "plat",
+      "play"
+    ],
+    "path_bi": [
+      "game",
+      "fame",
+      "fare",
+      "farm",
+      "form",
+      "foam",
+      "flam",
+      "flay",
+      "play"
+    ],
+    "bfs_visited": 1773,
+    "bfs_time_ms": 2.4296400020830333,
+    "bi_visited": 243,
+    "bi_time_ms": 0.40907999937189743,
+    "speedup": 5.9392783949679995,
+    "visited_reduction": 7.296296296296297
+  },
+  {
+    "puzzle": "sleep -> dream",
+    "desc": "5-letter cognitive",
+    "word_len": 5,
+    "ladder_length": 7,
+    "path_bfs": [
+      "sleep",
+      "bleep",
+      "bleed",
+      "breed",
+      "bread",
+      "dread",
+      "dream"
+    ],
+    "path_bi": [
+      "sleep",
+      "bleep",
+      "bleed",
+      "breed",
+      "bread",
+      "dread",
+      "dream"
+    ],
+    "bfs_visited": 85,
+    "bfs_time_ms": 1.200400001835078,
+    "bi_visited": 20,
+    "bi_time_ms": 0.040260002424474806,
+    "speedup": 29.816192984264017,
+    "visited_reduction": 4.25
+  },
+  {
+    "puzzle": "flour -> bread",
+    "desc": "5-letter culinary",
+    "word_len": 5,
+    "ladder_length": 7,
+    "path_bfs": [
+      "flour",
+      "floor",
+      "flood",
+      "blood",
+      "brood",
+      "broad",
+      "bread"
+    ],
+    "path_bi": [
+      "flour",
+      "floor",
+      "flood",
+      "blood",
+      "brood",
+      "broad",
+      "bread"
+    ],
+    "bfs_visited": 26,
+    "bfs_time_ms": 0.04247999895596877,
+    "bi_visited": 12,
+    "bi_time_ms": 0.024639999901410192,
+    "speedup": 1.7240259385527659,
+    "visited_reduction": 2.1666666666666665
+  },
+  {
+    "puzzle": "black -> white",
+    "desc": "5-letter contrast",
+    "word_len": 5,
+    "ladder_length": 9,
+    "path_bfs": [
+      "black",
+      "clack",
+      "crack",
+      "track",
+      "trick",
+      "trice",
+      "trite",
+      "write",
+      "white"
+    ],
+    "path_bi": [
+      "black",
+      "clack",
+      "crack",
+      "track",
+      "trace",
+      "trice",
+      "trite",
+      "write",
+      "white"
+    ],
+    "bfs_visited": 490,
+    "bfs_time_ms": 0.8717999982764013,
+    "bi_visited": 50,
+    "bi_time_ms": 0.10071999859064817,
+    "speedup": 8.65567921440924,
+    "visited_reduction": 9.8
+  },
+  {
+    "puzzle": "stone -> stare",
+    "desc": "5-letter phonetics",
+    "word_len": 5,
+    "ladder_length": 3,
+    "path_bfs": [
+      "stone",
+      "store",
+      "stare"
+    ],
+    "path_bi": [
+      "stone",
+      "store",
+      "stare"
+    ],
+    "bfs_visited": 27,
+    "bfs_time_ms": 0.04855999868595973,
+    "bi_visited": 2,
+    "bi_time_ms": 0.0057200013543479145,
+    "speedup": 8.4895082496874,
+    "visited_reduction": 13.5
+  }
+]

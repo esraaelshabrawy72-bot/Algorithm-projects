@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 540" width="100%" height="auto" style="background:#ffffff; border:1px solid #e2e8f0; border-radius:12px; font-family:sans-serif;">
+<text x="95" y="32" font-size="18" font-weight="700" fill="#0f172a">Sorting Benchmark Lab: Sorted Data (n = 10³ to 10⁵)</text>
+<text x="95" y="52" font-size="12.5" fill="#64748b">Log-Log Scale: Comparing empirical scaling of Python sorted(), Quick Sort, Merge Sort, and Insertion Sort</text>
+<line x1="95" y1="475.0" x2="830" y2="475.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="83" y="479.0" font-size="10.5" fill="#64748b" text-anchor="end">10^-3 ms</text>
+<line x1="95" y1="404.8" x2="830" y2="404.8" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="83" y="408.8" font-size="10.5" fill="#64748b" text-anchor="end">0.01 ms</text>
+<line x1="95" y1="334.6" x2="830" y2="334.6" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="83" y="338.6" font-size="10.5" fill="#64748b" text-anchor="end">0.1 ms</text>
+<line x1="95" y1="264.4" x2="830" y2="264.4" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="83" y="268.4" font-size="10.5" fill="#64748b" text-anchor="end">1 ms</text>
+<line x1="95" y1="194.2" x2="830" y2="194.2" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="83" y="198.2" font-size="10.5" fill="#64748b" text-anchor="end">10 ms</text>
+<line x1="95" y1="124.1" x2="830" y2="124.1" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="83" y="128.1" font-size="10.5" fill="#64748b" text-anchor="end">100 ms</text>
+<line x1="95.0" y1="75" x2="95.0" y2="475" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="95.0" y1="475" x2="95.0" y2="481" stroke="#94a3b8" stroke-width="1"/>
+<text x="95.0" y="495" font-size="11" fill="#64748b" text-anchor="middle">10³</text>
+<line x1="241.2" y1="75" x2="241.2" y2="475" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="241.2" y1="475" x2="241.2" y2="481" stroke="#94a3b8" stroke-width="1"/>
+<text x="241.2" y="495" font-size="11" fill="#64748b" text-anchor="middle">2K</text>
+<line x1="351.9" y1="75" x2="351.9" y2="475" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="351.9" y1="475" x2="351.9" y2="481" stroke="#94a3b8" stroke-width="1"/>
+<text x="351.9" y="495" font-size="11" fill="#64748b" text-anchor="middle">5K</text>
+<line x1="462.5" y1="75" x2="462.5" y2="475" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="462.5" y1="475" x2="462.5" y2="481" stroke="#94a3b8" stroke-width="1"/>
+<text x="462.5" y="495" font-size="11" fill="#64748b" text-anchor="middle">10⁴</text>
+<line x1="608.7" y1="75" x2="608.7" y2="475" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="608.7" y1="475" x2="608.7" y2="481" stroke="#94a3b8" stroke-width="1"/>
+<text x="608.7" y="495" font-size="11" fill="#64748b" text-anchor="middle">25K</text>
+<line x1="719.4" y1="75" x2="719.4" y2="475" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="719.4" y1="475" x2="719.4" y2="481" stroke="#94a3b8" stroke-width="1"/>
+<text x="719.4" y="495" font-size="11" fill="#64748b" text-anchor="middle">50K</text>
+<line x1="830.0" y1="75" x2="830.0" y2="475" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="830.0" y1="475" x2="830.0" y2="481" stroke="#94a3b8" stroke-width="1"/>
+<text x="830.0" y="495" font-size="11" fill="#64748b" text-anchor="middle">10⁵</text>
+<line x1="95.0" y1="475.0" x2="830.0" y2="475.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="95.0" y1="475.0" x2="95.0" y2="75.0" stroke="#475569" stroke-width="1.5"/>
+<text x="462.5" y="525" font-size="13" font-weight="600" fill="#334155" text-anchor="middle">Array Size (n) [Log Scale]</text>
+<text x="22" y="275.0" font-size="13" font-weight="600" fill="#334155" text-anchor="middle" transform="rotate(-90 22 275.0)">Running Time (ms) [Log Scale]</text>
+<path d="M 95.0 436.0 L 241.2 402.2 L 351.9 368.9 L 462.5 344.8 L 608.7 318.3 L 719.4 297.0 L 830.0 275.3" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="95.0" cy="436.0" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"><title>Python sorted(): n=1000, 0.00ms</title></circle>
+<circle cx="241.2" cy="402.2" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"><title>Python sorted(): n=2500, 0.01ms</title></circle>
+<circle cx="351.9" cy="368.9" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"><title>Python sorted(): n=5000, 0.03ms</title></circle>
+<circle cx="462.5" cy="344.8" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"><title>Python sorted(): n=10000, 0.07ms</title></circle>
+<circle cx="608.7" cy="318.3" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"><title>Python sorted(): n=25000, 0.17ms</title></circle>
+<circle cx="719.4" cy="297.0" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"><title>Python sorted(): n=50000, 0.34ms</title></circle>
+<circle cx="830.0" cy="275.3" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"><title>Python sorted(): n=100000, 0.70ms</title></circle>
+<path d="M 95.0 282.7 L 241.2 249.2 L 351.9 221.5 L 462.5 200.0 L 608.7 166.1 L 719.4 133.3 L 830.0 123.1" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="95.0" cy="282.7" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"><title>Quick Sort: n=1000, 0.55ms</title></circle>
+<circle cx="241.2" cy="249.2" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"><title>Quick Sort: n=2500, 1.65ms</title></circle>
+<circle cx="351.9" cy="221.5" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"><title>Quick Sort: n=5000, 4.09ms</title></circle>
+<circle cx="462.5" cy="200.0" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"><title>Quick Sort: n=10000, 8.27ms</title></circle>
+<circle cx="608.7" cy="166.1" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"><title>Quick Sort: n=25000, 25.17ms</title></circle>
+<circle cx="719.4" cy="133.3" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"><title>Quick Sort: n=50000, 73.87ms</title></circle>
+<circle cx="830.0" cy="123.1" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"><title>Quick Sort: n=100000, 103.06ms</title></circle>
+<path d="M 95.0 278.4 L 241.2 248.4 L 351.9 221.7 L 462.5 198.7 L 608.7 169.9 L 719.4 136.4 L 830.0 123.1" fill="none" stroke="#9333ea" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="95.0" cy="278.4" r="4" fill="#9333ea" stroke="#ffffff" stroke-width="1.5"><title>Merge Sort: n=1000, 0.63ms</title></circle>
+<circle cx="241.2" cy="248.4" r="4" fill="#9333ea" stroke="#ffffff" stroke-width="1.5"><title>Merge Sort: n=2500, 1.69ms</title></circle>
+<circle cx="351.9" cy="221.7" r="4" fill="#9333ea" stroke="#ffffff" stroke-width="1.5"><title>Merge Sort: n=5000, 4.06ms</title></circle>
+<circle cx="462.5" cy="198.7" r="4" fill="#9333ea" stroke="#ffffff" stroke-width="1.5"><title>Merge Sort: n=10000, 8.63ms</title></circle>
+<circle cx="608.7" cy="169.9" r="4" fill="#9333ea" stroke="#ffffff" stroke-width="1.5"><title>Merge Sort: n=25000, 22.21ms</title></circle>
+<circle cx="719.4" cy="136.4" r="4" fill="#9333ea" stroke="#ffffff" stroke-width="1.5"><title>Merge Sort: n=50000, 66.68ms</title></circle>
+<circle cx="830.0" cy="123.1" r="4" fill="#9333ea" stroke="#ffffff" stroke-width="1.5"><title>Merge Sort: n=100000, 103.25ms</title></circle>
+<path d="M 95.0 353.3 L 241.2 323.1 L 351.9 298.6 L 462.5 275.7 L 608.7 237.6 L 719.4 221.9 L 830.0 203.7" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="95.0" cy="353.3" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"><title>Insertion Sort: n=1000, 0.05ms</title></circle>
+<circle cx="241.2" cy="323.1" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"><title>Insertion Sort: n=2500, 0.15ms</title></circle>
+<circle cx="351.9" cy="298.6" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"><title>Insertion Sort: n=5000, 0.33ms</title></circle>
+<circle cx="462.5" cy="275.7" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"><title>Insertion Sort: n=10000, 0.69ms</title></circle>
+<circle cx="608.7" cy="237.6" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"><title>Insertion Sort: n=25000, 2.41ms</title></circle>
+<circle cx="719.4" cy="221.9" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"><title>Insertion Sort: n=50000, 4.04ms</title></circle>
+<circle cx="830.0" cy="203.7" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"><title>Insertion Sort: n=100000, 7.33ms</title></circle>
+<rect x="113" y="89" width="250" height="102" rx="6" fill="#ffffff" fill-opacity="0.95" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="125" y1="105" x2="149" y2="105" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="137" cy="105" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1"/>
+<text x="157" y="109" font-size="11.5" font-weight="500" fill="#1e293b">Python sorted()</text>
+<line x1="125" y1="127" x2="149" y2="127" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="137" cy="127" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1"/>
+<text x="157" y="131" font-size="11.5" font-weight="500" fill="#1e293b">Quick Sort</text>
+<line x1="125" y1="149" x2="149" y2="149" stroke="#9333ea" stroke-width="2.5"/>
+<circle cx="137" cy="149" r="3.5" fill="#9333ea" stroke="#ffffff" stroke-width="1"/>
+<text x="157" y="153" font-size="11.5" font-weight="500" fill="#1e293b">Merge Sort</text>
+<line x1="125" y1="171" x2="149" y2="171" stroke="#dc2626" stroke-width="2.5"/>
+<circle cx="137" cy="171" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1"/>
+<text x="157" y="175" font-size="11.5" font-weight="500" fill="#1e293b">Insertion Sort</text>
+</svg>

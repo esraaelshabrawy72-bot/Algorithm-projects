@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 520" width="100%" height="auto" style="background:#ffffff; border:1px solid #e2e8f0; border-radius:12px; font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
+<text x="90" y="32" font-size="18" font-weight="700" fill="#0f172a">Insertion Sort vs Merge Sort: Empirical Runtime Comparison</text>
+<text x="90" y="52" font-size="13" fill="#64748b">Quadratic O(n²) explosion vs asymptotically superior O(n log n) scalability</text>
+<line x1="90.0" y1="460.0" x2="800.0" y2="460.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="464.0" font-size="11" fill="#64748b" text-anchor="end">0 ms</text>
+<line x1="90.0" y1="395.0" x2="800.0" y2="395.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="399.0" font-size="11" fill="#64748b" text-anchor="end">367 ms</text>
+<line x1="90.0" y1="330.0" x2="800.0" y2="330.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="334.0" font-size="11" fill="#64748b" text-anchor="end">733 ms</text>
+<line x1="90.0" y1="265.0" x2="800.0" y2="265.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="269.0" font-size="11" fill="#64748b" text-anchor="end">1100 ms</text>
+<line x1="90.0" y1="200.0" x2="800.0" y2="200.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="204.0" font-size="11" fill="#64748b" text-anchor="end">1467 ms</text>
+<line x1="90.0" y1="135.0" x2="800.0" y2="135.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="139.0" font-size="11" fill="#64748b" text-anchor="end">1833 ms</text>
+<line x1="90.0" y1="70.0" x2="800.0" y2="70.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="74.0" font-size="11" fill="#64748b" text-anchor="end">2200 ms</text>
+<line x1="90.0" y1="460.0" x2="90.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="90.0" y1="460.0" x2="90.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="90.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">0</text>
+<line x1="232.0" y1="460.0" x2="232.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="232.0" y1="460.0" x2="232.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="232.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">1000</text>
+<line x1="374.0" y1="460.0" x2="374.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="374.0" y1="460.0" x2="374.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="374.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">2000</text>
+<line x1="516.0" y1="460.0" x2="516.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="516.0" y1="460.0" x2="516.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="516.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">3000</text>
+<line x1="658.0" y1="460.0" x2="658.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="658.0" y1="460.0" x2="658.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="658.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">4000</text>
+<line x1="800.0" y1="460.0" x2="800.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="800.0" y1="460.0" x2="800.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="800.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">5000</text>
+<line x1="90.0" y1="460.0" x2="800.0" y2="460.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="90.0" y1="460.0" x2="90.0" y2="70.0" stroke="#475569" stroke-width="1.5"/>
+<text x="445.0" y="505" font-size="13" font-weight="600" fill="#334155" text-anchor="middle">Array Size (n)</text>
+<text x="24" y="265.0" font-size="13" font-weight="600" fill="#334155" text-anchor="middle" transform="rotate(-90 24 265.0)">Running Time (milliseconds)</text>
+<path d="M 104.2 459.9 L 125.5 459.6 L 161.0 458.4 L 196.5 456.2 L 232.0 453.0 L 303.0 442.5 L 374.0 431.7 L 445.0 416.6 L 516.0 391.4 L 587.0 309.9 L 658.0 273.3 L 729.0 192.2 L 800.0 93.2" fill="none" stroke="#dc2626" stroke-width="2.5"  stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="104.2" cy="459.9" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=100, y=0.34)</title>
+</circle>
+<circle cx="125.5" cy="459.6" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=250, y=2.11)</title>
+</circle>
+<circle cx="161.0" cy="458.4" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=500, y=8.81)</title>
+</circle>
+<circle cx="196.5" cy="456.2" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=750, y=21.58)</title>
+</circle>
+<circle cx="232.0" cy="453.0" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=1000, y=39.26)</title>
+</circle>
+<circle cx="303.0" cy="442.5" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=1500, y=98.50)</title>
+</circle>
+<circle cx="374.0" cy="431.7" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=2000, y=159.76)</title>
+</circle>
+<circle cx="445.0" cy="416.6" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=2500, y=244.69)</title>
+</circle>
+<circle cx="516.0" cy="391.4" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=3000, y=387.07)</title>
+</circle>
+<circle cx="587.0" cy="309.9" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=3500, y=846.88)</title>
+</circle>
+<circle cx="658.0" cy="273.3" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=4000, y=1053.43)</title>
+</circle>
+<circle cx="729.0" cy="192.2" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=4500, y=1510.57)</title>
+</circle>
+<circle cx="800.0" cy="93.2" r="3.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Reverse - Worst Case): (n=5000, y=2069.15)</title>
+</circle>
+<path d="M 104.2 460.0 L 125.5 459.8 L 161.0 459.2 L 196.5 458.1 L 232.0 456.5 L 303.0 451.5 L 374.0 445.8 L 445.0 438.9 L 516.0 416.4 L 587.0 388.1 L 658.0 356.7 L 729.0 320.6 L 800.0 287.8" fill="none" stroke="#2563eb" stroke-width="2.5"  stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="104.2" cy="460.0" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=100, y=0.17)</title>
+</circle>
+<circle cx="125.5" cy="459.8" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=250, y=1.05)</title>
+</circle>
+<circle cx="161.0" cy="459.2" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=500, y=4.64)</title>
+</circle>
+<circle cx="196.5" cy="458.1" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=750, y=10.72)</title>
+</circle>
+<circle cx="232.0" cy="456.5" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=1000, y=19.91)</title>
+</circle>
+<circle cx="303.0" cy="451.5" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=1500, y=47.95)</title>
+</circle>
+<circle cx="374.0" cy="445.8" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=2000, y=80.14)</title>
+</circle>
+<circle cx="445.0" cy="438.9" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=2500, y=119.10)</title>
+</circle>
+<circle cx="516.0" cy="416.4" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=3000, y=246.13)</title>
+</circle>
+<circle cx="587.0" cy="388.1" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=3500, y=405.50)</title>
+</circle>
+<circle cx="658.0" cy="356.7" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=4000, y=582.76)</title>
+</circle>
+<circle cx="729.0" cy="320.6" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=4500, y=786.49)</title>
+</circle>
+<circle cx="800.0" cy="287.8" r="3.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Random - Average Case): (n=5000, y=971.18)</title>
+</circle>
+<path d="M 104.2 460.0 L 125.5 460.0 L 161.0 459.9 L 196.5 459.8 L 232.0 459.8 L 303.0 459.6 L 374.0 459.5 L 445.0 459.4 L 516.0 459.0 L 587.0 458.6 L 658.0 458.1 L 729.0 457.8 L 800.0 457.6" fill="none" stroke="#7c3aed" stroke-width="2.5"  stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="104.2" cy="460.0" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=100, y=0.09)</title>
+</circle>
+<circle cx="125.5" cy="460.0" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=250, y=0.24)</title>
+</circle>
+<circle cx="161.0" cy="459.9" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=500, y=0.63)</title>
+</circle>
+<circle cx="196.5" cy="459.8" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=750, y=0.93)</title>
+</circle>
+<circle cx="232.0" cy="459.8" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=1000, y=1.24)</title>
+</circle>
+<circle cx="303.0" cy="459.6" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=1500, y=2.34)</title>
+</circle>
+<circle cx="374.0" cy="459.5" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=2000, y=2.79)</title>
+</circle>
+<circle cx="445.0" cy="459.4" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=2500, y=3.41)</title>
+</circle>
+<circle cx="516.0" cy="459.0" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=3000, y=5.53)</title>
+</circle>
+<circle cx="587.0" cy="458.6" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=3500, y=7.79)</title>
+</circle>
+<circle cx="658.0" cy="458.1" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=4000, y=10.46)</title>
+</circle>
+<circle cx="729.0" cy="457.8" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=4500, y=12.68)</title>
+</circle>
+<circle cx="800.0" cy="457.6" r="3.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Random Input - O(n log n)): (n=5000, y=13.52)</title>
+</circle>
+<path d="M 104.2 460.0 L 125.5 460.0 L 161.0 459.9 L 196.5 459.9 L 232.0 459.8 L 303.0 459.7 L 374.0 459.7 L 445.0 459.6 L 516.0 459.3 L 587.0 459.1 L 658.0 458.7 L 729.0 457.3 L 800.0 458.4" fill="none" stroke="#a855f7" stroke-width="2.0" stroke-dasharray="4,3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="104.2" cy="460.0" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=100, y=0.07)</title>
+</circle>
+<circle cx="125.5" cy="460.0" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=250, y=0.18)</title>
+</circle>
+<circle cx="161.0" cy="459.9" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=500, y=0.40)</title>
+</circle>
+<circle cx="196.5" cy="459.9" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=750, y=0.68)</title>
+</circle>
+<circle cx="232.0" cy="459.8" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=1000, y=0.93)</title>
+</circle>
+<circle cx="303.0" cy="459.7" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=1500, y=1.65)</title>
+</circle>
+<circle cx="374.0" cy="459.7" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=2000, y=1.90)</title>
+</circle>
+<circle cx="445.0" cy="459.6" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=2500, y=2.44)</title>
+</circle>
+<circle cx="516.0" cy="459.3" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=3000, y=4.17)</title>
+</circle>
+<circle cx="587.0" cy="459.1" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=3500, y=5.15)</title>
+</circle>
+<circle cx="658.0" cy="458.7" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=4000, y=7.42)</title>
+</circle>
+<circle cx="729.0" cy="457.3" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=4500, y=15.46)</title>
+</circle>
+<circle cx="800.0" cy="458.4" r="3.5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5">
+<title>Merge Sort (Reverse Input - O(n log n)): (n=5000, y=8.98)</title>
+</circle>
+<path d="M 104.2 460.0 L 125.5 460.0 L 161.0 460.0 L 196.5 460.0 L 232.0 460.0 L 303.0 460.0 L 374.0 460.0 L 445.0 460.0 L 516.0 460.0 L 587.0 459.9 L 658.0 459.9 L 729.0 459.9 L 800.0 459.9" fill="none" stroke="#16a34a" stroke-width="2.0"  stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="104.2" cy="460.0" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=100, y=0.01)</title>
+</circle>
+<circle cx="125.5" cy="460.0" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=250, y=0.02)</title>
+</circle>
+<circle cx="161.0" cy="460.0" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=500, y=0.04)</title>
+</circle>
+<circle cx="196.5" cy="460.0" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=750, y=0.05)</title>
+</circle>
+<circle cx="232.0" cy="460.0" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=1000, y=0.08)</title>
+</circle>
+<circle cx="303.0" cy="460.0" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=1500, y=0.15)</title>
+</circle>
+<circle cx="374.0" cy="460.0" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=2000, y=0.17)</title>
+</circle>
+<circle cx="445.0" cy="460.0" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=2500, y=0.22)</title>
+</circle>
+<circle cx="516.0" cy="460.0" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=3000, y=0.23)</title>
+</circle>
+<circle cx="587.0" cy="459.9" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=3500, y=0.43)</title>
+</circle>
+<circle cx="658.0" cy="459.9" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=4000, y=0.49)</title>
+</circle>
+<circle cx="729.0" cy="459.9" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=4500, y=0.63)</title>
+</circle>
+<circle cx="800.0" cy="459.9" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Insertion Sort (Sorted - Best Case: O(n)): (n=5000, y=0.69)</title>
+</circle>
+<rect x="110" y="85" width="270" height="124" rx="6" fill="#ffffff" fill-opacity="0.92" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="122" y1="101" x2="146" y2="101" stroke="#dc2626" stroke-width="2.5" />
+<circle cx="134" cy="101" r="3" fill="#dc2626" stroke="#ffffff" stroke-width="1"/>
+<text x="156" y="105" font-size="11.5" font-weight="500" fill="#1e293b">Insertion Sort (Reverse - Worst Case)</text>
+<line x1="122" y1="123" x2="146" y2="123" stroke="#2563eb" stroke-width="2.5" />
+<circle cx="134" cy="123" r="3" fill="#2563eb" stroke="#ffffff" stroke-width="1"/>
+<text x="156" y="127" font-size="11.5" font-weight="500" fill="#1e293b">Insertion Sort (Random - Average Case)</text>
+<line x1="122" y1="145" x2="146" y2="145" stroke="#7c3aed" stroke-width="2.5" />
+<circle cx="134" cy="145" r="3" fill="#7c3aed" stroke="#ffffff" stroke-width="1"/>
+<text x="156" y="149" font-size="11.5" font-weight="500" fill="#1e293b">Merge Sort (Random Input - O(n log n))</text>
+<line x1="122" y1="167" x2="146" y2="167" stroke="#a855f7" stroke-width="2.5" stroke-dasharray="4,3"/>
+<circle cx="134" cy="167" r="3" fill="#a855f7" stroke="#ffffff" stroke-width="1"/>
+<text x="156" y="171" font-size="11.5" font-weight="500" fill="#1e293b">Merge Sort (Reverse Input - O(n log n))</text>
+<line x1="122" y1="189" x2="146" y2="189" stroke="#16a34a" stroke-width="2.5" />
+<circle cx="134" cy="189" r="3" fill="#16a34a" stroke="#ffffff" stroke-width="1"/>
+<text x="156" y="193" font-size="11.5" font-weight="500" fill="#1e293b">Insertion Sort (Sorted - Best Case: O(n))</text>
+</svg>

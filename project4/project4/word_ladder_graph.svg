@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 480" width="100%" height="auto" style="background:#ffffff; border:1px solid #e2e8f0; border-radius:12px; font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
+<text x="40" y="32" font-size="18" font-weight="700" fill="#0f172a">Word Ladder Graph State Space: "cold" → "warm"</text>
+<text x="40" y="52" font-size="12.5" fill="#64748b">Undirected graph where edges connect words differing by Hamming distance = 1. Shortest path highlighted in green.</text>
+<line x1="100" y1="240" x2="100" y2="120" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="100" y1="240" x2="100" y2="360" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="100" y1="240" x2="190" y2="280" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="100" y1="120" x2="190" y2="80" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="100" y1="120" x2="190" y2="400" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="100" y1="360" x2="190" y2="400" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="270" y1="160" x2="270" y2="80" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="270" y1="80" x2="450" y2="80" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="450" y1="80" x2="450" y2="160" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="450" y1="80" x2="770" y2="240" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="270" y1="160" x2="360" y2="220" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="360" y1="220" x2="450" y2="260" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="450" y1="260" x2="450" y2="160" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="450" y1="160" x2="540" y2="120" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="620" y1="240" x2="620" y2="350" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="770" y1="240" x2="700" y2="140" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="770" y1="240" x2="700" y2="340" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<line x1="100" y1="240" x2="270" y2="160" stroke="#16a34a" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="270" y1="160" x2="450" y2="160" stroke="#16a34a" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="450" y1="160" x2="620" y2="240" stroke="#16a34a" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="620" y1="240" x2="770" y2="240" stroke="#16a34a" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="100" cy="240" r="26" fill="#16a34a" stroke="#15803d" stroke-width="3"/>
+<text x="100" y="245" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">COLD</text>
+<text x="100" y="208" font-size="10" font-weight="700" fill="#15803d" text-anchor="middle">START</text>
+<circle cx="270" cy="160" r="26" fill="#16a34a" stroke="#15803d" stroke-width="3"/>
+<text x="270" y="165" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">CORD</text>
+<text x="270" y="128" font-size="10" font-weight="700" fill="#15803d" text-anchor="middle">STEP 1</text>
+<circle cx="450" cy="160" r="26" fill="#16a34a" stroke="#15803d" stroke-width="3"/>
+<text x="450" y="165" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">WORD</text>
+<text x="450" y="128" font-size="10" font-weight="700" fill="#15803d" text-anchor="middle">STEP 2</text>
+<circle cx="620" cy="240" r="26" fill="#16a34a" stroke="#15803d" stroke-width="3"/>
+<text x="620" y="245" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">WORM</text>
+<text x="620" y="208" font-size="10" font-weight="700" fill="#15803d" text-anchor="middle">STEP 3</text>
+<circle cx="770" cy="240" r="26" fill="#16a34a" stroke="#15803d" stroke-width="3"/>
+<text x="770" y="245" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">WARM</text>
+<text x="770" y="208" font-size="10" font-weight="700" fill="#15803d" text-anchor="middle">TARGET</text>
+<circle cx="100" cy="120" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="100" y="124" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">bold</text>
+<circle cx="190" cy="80" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="190" y="84" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">gold</text>
+<circle cx="100" cy="360" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="100" y="364" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">hold</text>
+<circle cx="190" cy="400" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="190" y="404" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">sold</text>
+<circle cx="190" cy="280" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="190" y="284" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">colt</text>
+<circle cx="270" cy="80" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="270" y="84" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">card</text>
+<circle cx="450" cy="80" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="450" y="84" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">ward</text>
+<circle cx="360" cy="220" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="360" y="224" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">ford</text>
+<circle cx="450" cy="260" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="450" y="264" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">lord</text>
+<circle cx="540" cy="120" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="540" y="124" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">wood</text>
+<circle cx="620" cy="350" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="620" y="354" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">form</text>
+<circle cx="700" cy="140" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="700" y="144" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">farm</text>
+<circle cx="700" cy="340" r="20" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="700" y="344" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">warn</text>
+<line x1="40" y1="430" x2="70" y2="430" stroke="#16a34a" stroke-width="4"/>
+<text x="80" y="434" font-size="11" font-weight="600" fill="#16a34a">Optimal BFS Shortest Path (Length: 5 words / 4 transformations)</text>
+<line x1="420" y1="430" x2="450" y2="430" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,3"/>
+<text x="460" y="434" font-size="11" fill="#64748b">Alternative dictionary transitions explored</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 520" width="100%" height="auto" style="background:#ffffff; border:1px solid #e2e8f0; border-radius:12px; font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
+<text x="90" y="32" font-size="18" font-weight="700" fill="#0f172a">Insertion Sort: Best Case Linear Growth O(n) Detailed View</text>
+<text x="90" y="52" font-size="13" fill="#64748b">Running time on pre-sorted arrays exhibits pure linear scaling (0.01 ms to 0.69 ms)</text>
+<line x1="90.0" y1="460.0" x2="800.0" y2="460.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="464.0" font-size="11" fill="#64748b" text-anchor="end">0.00 ms</text>
+<line x1="90.0" y1="382.0" x2="800.0" y2="382.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="386.0" font-size="11" fill="#64748b" text-anchor="end">0.16 ms</text>
+<line x1="90.0" y1="304.0" x2="800.0" y2="304.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="308.0" font-size="11" fill="#64748b" text-anchor="end">0.32 ms</text>
+<line x1="90.0" y1="226.0" x2="800.0" y2="226.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="230.0" font-size="11" fill="#64748b" text-anchor="end">0.48 ms</text>
+<line x1="90.0" y1="148.0" x2="800.0" y2="148.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="152.0" font-size="11" fill="#64748b" text-anchor="end">0.64 ms</text>
+<line x1="90.0" y1="70.0" x2="800.0" y2="70.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="78.0" y="74.0" font-size="11" fill="#64748b" text-anchor="end">0.80 ms</text>
+<line x1="90.0" y1="460.0" x2="90.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="90.0" y1="460.0" x2="90.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="90.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">0</text>
+<line x1="232.0" y1="460.0" x2="232.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="232.0" y1="460.0" x2="232.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="232.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">1000</text>
+<line x1="374.0" y1="460.0" x2="374.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="374.0" y1="460.0" x2="374.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="374.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">2000</text>
+<line x1="516.0" y1="460.0" x2="516.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="516.0" y1="460.0" x2="516.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="516.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">3000</text>
+<line x1="658.0" y1="460.0" x2="658.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="658.0" y1="460.0" x2="658.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="658.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">4000</text>
+<line x1="800.0" y1="460.0" x2="800.0" y2="70.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="800.0" y1="460.0" x2="800.0" y2="466.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="800.0" y="480.0" font-size="11" fill="#64748b" text-anchor="middle">5000</text>
+<line x1="90.0" y1="460.0" x2="800.0" y2="460.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="90.0" y1="460.0" x2="90.0" y2="70.0" stroke="#475569" stroke-width="1.5"/>
+<text x="445.0" y="505" font-size="13" font-weight="600" fill="#334155" text-anchor="middle">Array Size (n)</text>
+<text x="24" y="265.0" font-size="13" font-weight="600" fill="#334155" text-anchor="middle" transform="rotate(-90 24 265.0)">Running Time (milliseconds)</text>
+<path d="M 104.2 455.1 L 125.5 452.2 L 161.0 442.4 L 196.5 433.7 L 232.0 420.5 L 303.0 388.8 L 374.0 379.6 L 445.0 354.2 L 516.0 346.4 L 587.0 249.4 L 658.0 222.1 L 729.0 153.4 L 800.0 122.7" fill="none" stroke="#16a34a" stroke-width="2.5"  stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="104.2" cy="455.1" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=100, y=0.01)</title>
+</circle>
+<circle cx="125.5" cy="452.2" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=250, y=0.02)</title>
+</circle>
+<circle cx="161.0" cy="442.4" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=500, y=0.04)</title>
+</circle>
+<circle cx="196.5" cy="433.7" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=750, y=0.05)</title>
+</circle>
+<circle cx="232.0" cy="420.5" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=1000, y=0.08)</title>
+</circle>
+<circle cx="303.0" cy="388.8" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=1500, y=0.15)</title>
+</circle>
+<circle cx="374.0" cy="379.6" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=2000, y=0.17)</title>
+</circle>
+<circle cx="445.0" cy="354.2" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=2500, y=0.22)</title>
+</circle>
+<circle cx="516.0" cy="346.4" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=3000, y=0.23)</title>
+</circle>
+<circle cx="587.0" cy="249.4" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=3500, y=0.43)</title>
+</circle>
+<circle cx="658.0" cy="222.1" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=4000, y=0.49)</title>
+</circle>
+<circle cx="729.0" cy="153.4" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=4500, y=0.63)</title>
+</circle>
+<circle cx="800.0" cy="122.7" r="3.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5">
+<title>Sorted Input (Empirical Best Case): (n=5000, y=0.69)</title>
+</circle>
+<path d="M 104.2 453.3 L 118.4 446.5 L 132.6 439.8 L 146.8 433.0 L 161.0 426.3 L 175.2 419.5 L 189.4 412.8 L 203.6 406.0 L 217.8 399.3 L 232.0 392.5 L 246.2 385.8 L 260.4 379.0 L 274.6 372.3 L 288.8 365.5 L 303.0 358.8 L 317.2 352.0 L 331.4 345.3 L 345.6 338.6 L 359.8 331.8 L 374.0 325.1 L 388.2 318.3 L 402.4 311.6 L 416.6 304.8 L 430.8 298.1 L 445.0 291.3 L 459.2 284.6 L 473.4 277.8 L 487.6 271.1 L 501.8 264.3 L 516.0 257.6 L 530.2 250.8 L 544.4 244.1 L 558.6 237.3 L 572.8 230.6 L 587.0 223.9 L 601.2 217.1 L 615.4 210.4 L 629.6 203.6 L 643.8 196.9 L 658.0 190.1 L 672.2 183.4 L 686.4 176.6 L 700.6 169.9 L 714.8 163.1 L 729.0 156.4 L 743.2 149.6 L 757.4 142.9 L 771.6 136.1 L 785.8 129.4 L 800.0 122.6" fill="none" stroke="#15803d" stroke-width="2.0" stroke-dasharray="5,4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="110" y="85" width="270" height="58" rx="6" fill="#ffffff" fill-opacity="0.92" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="122" y1="101" x2="146" y2="101" stroke="#16a34a" stroke-width="2.5" />
+<circle cx="134" cy="101" r="3" fill="#16a34a" stroke="#ffffff" stroke-width="1"/>
+<text x="156" y="105" font-size="11.5" font-weight="500" fill="#1e293b">Sorted Input (Empirical Best Case)</text>
+<line x1="122" y1="123" x2="146" y2="123" stroke="#15803d" stroke-width="2.5" stroke-dasharray="5,4"/>
+<text x="156" y="127" font-size="11.5" font-weight="500" fill="#1e293b">Theoretical Linear O(n) fit [c·n]</text>
+</svg>
